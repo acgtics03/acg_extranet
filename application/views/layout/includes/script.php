@@ -1,0 +1,14 @@
+<?php
+	load_js(array(		
+		"assets/plugins/global/plugins.bundle.js",
+		"assets/js/scripts.bundle.js",
+		"assets/plugins/custom/fullcalendar/fullcalendar.bundle.js",
+		"assets/js/custom/widgets.js",
+		"assets/js/custom/apps/chat/chat.js",
+		"assets/js/custom/modals/create-app.js",
+		"assets/js/custom/modals/upgrade-plan.js",
+		"assets/plugins/custom/datatables/datatables.bundle.js",
+		"assets/js/system/app.js",
+		//"assets/js/system/search.js"
+	));
+?>

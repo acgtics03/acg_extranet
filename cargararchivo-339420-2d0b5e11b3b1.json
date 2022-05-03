@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "cargararchivo-339420",
+  "private_key_id": "2d0b5e11b3b1b8f4fbcf009c486fe7c23a329795",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCuNvP37kiBwa+D\nsZX1yjkIHwnOY26vNVWy/j+CLlovT30qR+zUeYbD1ZWojhYDmZaishxuRorC2Ujs\nqO1/WXkrXWWxt3alT5K36V3IMxt8o1jJi5fj/UNtJU4iSFNIw06/AFlAu1X2T37E\n5tS6FnW1ES2rRHzwJTJ1HxTGt8Wy47C3+qjdRtQx+122aK+mqS3V6pqPvEFA0qXN\nnlS5oS1vaOsVdJL1zR37bGMIVocA64rCx8lzLJjBWKjMFybFjMtA/nhq1NpyEh6H\nTYisXUHInLCOP21LGia5g8c55bj7Z4ez8WfSHXotZymY5SnQpA7T/PPrZWK/mAMJ\n69tWB/VDAgMBAAECggEABO2hb/ioyrJc07M49pPlcDCkUgplX+ffEvS29PFWmpLQ\nvwWEHx9noSdBRwbrSF8wGrQgXRm15Kd0PYazK19rdAN1XM23F5NG4y4v13FBm1W/\nE9g7adCrKqDKzNkSQpmvAMo3AGodUwRfNvKZg2t0KnDGkGw1oR3Ah3UfS/AR/oQy\nRiq84lnBQBef2dScPhhoBBYZL2pxFc+CiKaRXgD+NeQr4V0tYbyrlpEl9yIbDWM5\nnaKnrxJxIm/4kO3rcg25TwuqHk7SHxNsuUmX5gJmXwHAI0Qx/e9q+aukXaD7zOnF\noFZuv6YG31aFkrn0G8xsyS/gN0hxn265p3umwUy7GQKBgQDmNaccx3Mlk2p1N+G0\noqC6LppMHmns64GGB1za4BkOOVD0Ud9lVlUgRjKJmMjSfRx8T3CXDUQf8Glu9Zbk\n6Wy7GG97jIhmsTaNbDTZlNW7lB2DeeFmG7p4/V0kCbBk0+tjCJ2YvaGu6ixJNrdt\n3KbolioxzmKANp6ObsHX88DZ7QKBgQDBu2Gf8rOxPIsK9jqn0/29S5Kh6bf23G3O\nsk1iuEb2WquP4/qKOaf9jjPpbuGD8TK3ZL/EDQA9cnhMMHcXhtkql5K9TETAj6kx\ni32PulYQoSlzlVRO3FQEq49YxOxlwq/VBnSIRKRIO/VUsxHTuDBc0fYZLUdS0wNz\nNwUHYspl7wKBgQCCwWaxyfd1GE4XVi4000pHdcDeC0hO8VUYM4ZiK3cPxS5eF0Kz\n5F1lf3mk/crTA4zyboycv0Q6f+riw0t5qbvAaRipLCEtcupxWUyLaSYc7Pv2eXu0\n63r2zbHhjj9KhbPlBDe/UbZMC2YsD5AQLov+/4vnzjnUaTGV5QLlDeYz4QKBgA+Q\nTzJ7XAZEF+OEjofHFx5rANezIA1b/hJZ7q+coE7QT/IaXZlXMnDDSNZbCxD/gpSL\nKoDEjp1hIdr1Fcw1ECNE1AwTIX7ay7voOekfDiT93YekmoZPWwyY/8Yg4+D0+A1E\nHH6KDSykbHwmeqsoo/IBCCVTpuQ3gZJy/Btwy1PPAoGBAMlWMH0NJFRMgIFGwXNm\naEPJ3uFhdGSePn7egPTgNltNcyEjCg0uR/T55N/x2mbny82DWM3OgmHTmcOxX1mN\nOr7ekbR+wRSGEldFm7EW1NLP/KDV8m2V7B4AORqaBc9eryg2UEoUByI0tzE1ED2D\nURG9TxDjq95C1QM+GhU432em\n-----END PRIVATE KEY-----\n",
+  "client_email": "prueba-carga@cargararchivo-339420.iam.gserviceaccount.com",
+  "client_id": "117468508162428903320",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/prueba-carga%40cargararchivo-339420.iam.gserviceaccount.com"
+}
