@@ -232,10 +232,22 @@ class Empresa_model extends CI_Model {
 		$anio_id = $this->db->insert_id();
 
 		$meses = array("ENERO", "FEBRERO", "MARZO", "ABRIL", "MAYO", "JUNIO", "JULIO", "AGOSTO", "SETIEMBRE", "OCTUBRE", "NOVIEMBRE", "DICIEMBRE");
-		if ($t_repositorio == '1') { $carpetas = array("ENTREGABLE PLE", "ENTREGABLE DECLARACIONES", "ENTREGABLE EEFF"); }
-		elseif($t_repositorio == '2'){ $carpetas = array("IMPUESTOS", "EEFF", "OTROS"); }
-		elseif($t_repositorio == '3'){ $carpetas = array("IMPUESTOS", "EEFF", "PLE", "OTROS"); }
-	
+
+		/*	if ($t_repositorio == '1') { $carpetas = $data_all; }
+			elseif($t_repositorio == '2'){ $carpetas = array("IMPUESTOS", "EEFF", "OTROS"); }
+			elseif($t_repositorio == '3'){ $carpetas = array("IMPUESTOS", "EEFF", "PLE", "OTROS"); }
+		*/
+
+		$reportes = $this->recopilando_json_emp($id_empresa)->EX_EMP_REPORT_ASIGNADO; 
+		$array = unserialize($reportes);
+		$data_all = array();
+		for ($i=0; $i < count($array); $i++){ 
+			$nombre_tipo = $this->recopilando_reporte($array[$i]);
+			$data_all[] = $nombre_tipo->TIP_NOMBRE;
+		}
+		
+		$carpetas = $data_all;
+		
 
 		for ($i=0; $i < count($meses); $i++) { 
 			$log_mes = array();
@@ -440,6 +452,12 @@ class Empresa_model extends CI_Model {
 		$this->db->select('*');
 		$this->db->from('ex_empresa');
 		$this->db->where('PK_EX_EMPRESA = "'.$id.'" ');
+		return $this->db->get()->row();
+	}
+	public function recopilando_reporte($id = 0){
+		$this->db->select('*');
+		$this->db->from('act_tipos');
+		$this->db->where('PK_TIP_CODI = "'.$id.'" ');
 		return $this->db->get()->row();
 	}
 
